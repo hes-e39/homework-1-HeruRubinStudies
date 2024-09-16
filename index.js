@@ -13,6 +13,8 @@ const COLORS = 'https://nt-cdn.s3.amazonaws.com/colors.json';
 
 // Generic function to fetch JSON data from a URL
 // keep things separated by responsibiliy
+
+ //using async/await for promises https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 const fetchJson = async (url) => {
   try {
     const response = await fetch(url);
