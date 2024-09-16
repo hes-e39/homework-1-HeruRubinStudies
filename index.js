@@ -11,6 +11,7 @@ const COLORS = 'https://nt-cdn.s3.amazonaws.com/colors.json';
  * @returns Promise
  */
 
+//
 // Generic function to fetch JSON data from a URL
 // keep things separated by responsibiliy
 
